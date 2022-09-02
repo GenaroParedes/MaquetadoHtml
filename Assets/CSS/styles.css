@@ -1,0 +1,43 @@
+.navbar.navbar-expand-lg.bg-secondary {
+    background-color: rgb(222, 226, 226) !important;
+}
+i.fa-brands.fa-facebook,
+i.fa-brands.fa-twitter,
+i.fa-brands.fa-instagram,
+i.fa-brands.fa-linkedin,
+i.fa-solid.fa-user {
+    color: #fff;
+} /* De esta forma le damos color a los iconos. */
+
+i.fa-brands.fa-facebook:hover {
+    color: #0000ff;
+}
+i.fa-brands.fa-twitter:hover {
+    color:#14c9c9
+}
+i.fa-brands.fa-instagram:hover {
+    color: #cf4954;
+}
+i.fa-brands.fa-linkedin:hover {
+    color: #21a1f7;
+}
+
+i.fa-solid.fa-user:hover {
+    color:#000000
+} /*El :hover se utiliza para darle color a un icono cuando el cursor del mouse para por encima.*/
+
+.list-group {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: none;
+}
+
+.banner {
+    max-width: 100%;
+    margin-top: -30%;
+}
+
+section.about {
+    margin-top: -2rem;
+    margin-left: -20%;
+}
+

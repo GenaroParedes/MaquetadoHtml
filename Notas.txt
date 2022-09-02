@@ -1,0 +1,11 @@
+El script con el link de JavaScript nos sirve para que en la pagina web podamos interactuar con la misma y poder movernos sobre ella.
+El link CSS lo utilizamos para darle con Bootstrap modelos a la pagina.
+Con el script de fontAwesome podemos insertar iconos para edicion, escribir, etc.
+
+
+Navbar de bootstrap --> Nos permite poner una barra arriba de la pagina en la que podemos colocar logos, redes sociales,
+este navbar nos da botones los cuales si nosotros queremos colocar otra cosa lo vamos editando acorde a lo que queremos,
+pero esto nos da la base.
+
+Form control de bootstrap --> Nos permite colocar un formulario para ingresar correo, contraseña, usuario, etc..
+Nosotros lo editamos acorde a lo que deseamos.

@@ -1,10 +1,15 @@
-.navbar.navbar-expand-lg.bg-secondary {
-    background-color: rgb(222, 226, 226) !important;
-}
+/*.navbar.navbar-expand-lg.bg-secondary.fixed-top {
+    background: rgb(75,109,136);
+    background: -moz-linear-gradient(90deg, rgba(75,109,136,1) 25%, rgba(63,156,99,1) 50%, rgba(75,109,136,1) 75%);
+    background: -webkit-linear-gradient(90deg, rgba(75,109,136,1) 25%, rgba(63,156,99,1) 50%, rgba(75,109,136,1) 75%);
+    background: linear-gradient(90deg, rgba(75,109,136,1) 25%, rgba(63,156,99,1) 50%, rgba(75,109,136,1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b6d88",endColorstr="#4b6d88",GradientType=1) !important;
+}*/
 i.fa-brands.fa-facebook,
 i.fa-brands.fa-twitter,
 i.fa-brands.fa-instagram,
 i.fa-brands.fa-linkedin,
+i.fa-solid.fa-user-lock,
 i.fa-solid.fa-user {
     color: #fff;
 } /* De esta forma le damos color a los iconos. */
@@ -22,9 +27,13 @@ i.fa-brands.fa-linkedin:hover {
     color: #21a1f7;
 }
 
-i.fa-solid.fa-user:hover {
+i.fa-solid.fa-user-lock:hover {
     color:#000000
 } /*El :hover se utiliza para darle color a un icono cuando el cursor del mouse para por encima.*/
+
+i.fa-solid.fa-user:hover {
+    color:#000000
+}
 
 .list-group {
     --bs-list-group-bg: transparent;
@@ -33,11 +42,22 @@ i.fa-solid.fa-user:hover {
 
 .banner {
     max-width: 100%;
-    margin-top: -30%;
+    margin-top: -100%;
 }
 
 section.about {
-    margin-top: -2rem;
+    margin-top: 2rem;
     margin-left: -20%;
 }
 
+.nombrePerfil {
+    margin-left: -77%;
+}
+
+.mover {
+    margin-top: 9%;
+}
+
+.border {
+color:#000000
+}
